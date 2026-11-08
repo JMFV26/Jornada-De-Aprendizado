@@ -1,31 +1,31 @@
-# Modelo de anotações
+# Modelo De Anotações
 
 Use uma cópia deste modelo para documentar cada assunto estudado.
 
 ## Tema
 - **Trilha:**
 - **Data:** AAAA-MM-DD
-- **Nível de confiança:** começando / praticando / revisando
+- **Nível De Confiança:** começando / praticando / revisando
 
 ## Objetivo
 O que quero compreender ou conseguir fazer?
 
-## Conceitos principais
+## Conceitos Principais
 - 
 
-## Laboratório ou exercício
+## Laboratório Ou Exercício
 Descreva o ambiente de teste, os passos em alto nível e o resultado. Não registre senhas, tokens, endereços privados ou dados de terceiros.
 
-## O que aprendi
+## O Que Aprendi
 - 
 
-## Dificuldades e como resolvi
+## Dificuldades E Como Resolvi
 - 
 
 ## Fontes
 - [Título — link]
 
-## Próximos passos
+## Próximos Passos
 - [ ] 
 
 ## Evidências

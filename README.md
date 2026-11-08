@@ -2,7 +2,7 @@
 
 Meu espaço para registrar a evolução em infraestrutura, segurança, dados, cloud e desenvolvimento. Aqui organizo anotações, práticas, projetos e evidências de aprendizado.
 
-> **Em construção:** personalize os conteúdos e substitua os exemplos pelos seus estudos e projetos reais. Nunca publique senhas, tokens, chaves ou dados confidenciais.
+> **Em Construção:** personalize os conteúdos e substitua os exemplos pelos seus estudos e projetos reais. Nunca publique senhas, tokens, chaves ou dados confidenciais.
 
 ## Trilhas
 
@@ -17,7 +17,7 @@ Meu espaço para registrar a evolução em infraestrutura, segurança, dados, cl
 | [3CX](3cx/) | Telefonia e configuração em ambiente autorizado |
 | [VMware](VMware/) | Virtualização e laboratórios |
 | [Cloud](Cloud/) | Serviços, arquitetura e operações em nuvem |
-| [Banco de dados](Banco%20de%20dados/) | SQL, modelagem e exercícios |
+| [Banco De Dados](Banco%20de%20dados/) | SQL, modelagem e exercícios |
 | [Projetos](projetos/) | Aplicações práticas e integração dos conhecimentos |
 
 Cada trilha possui um README para orientar os estudos e uma pasta `Evidências` para registros seguros de práticas. Use `modelo-anotacoes.md` como base para documentar novos assuntos.
@@ -28,9 +28,9 @@ O plano inicial está em [ROADMAP.md](ROADMAP.md). O ritmo é flexível: avance 
 
 ## Portfólio
 
-A página inicial do portfólio está em [`index.html`](index.html), com estilos em `styles.css` e interações em `script.js`. Para visualizar, abra `index.html` no navegador. Antes de publicar, personalize o nome, apresentação, projetos e formas de contato.
+A página inicial do portfólio está em [`index.html`](index.html), com estilos em `styles.css` e interações em `script.js`. Para visualizar, abra `index.html` no navegador. Antes de publicar, personalize o nome, a apresentação, os projetos e as formas de contato.
 
-## Como contribuir com sua própria jornada
+## Como Contribuir Com Sua Própria Jornada
 
 1. Escolha um tema de uma trilha.
 2. Registre objetivo, conceitos e fontes em `modelo-anotacoes.md`.
