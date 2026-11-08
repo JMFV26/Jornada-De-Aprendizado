@@ -1,1 +1,153 @@
-:root{color-scheme:dark;--bg:#101114;--surface:#17181d;--text:#f2f0eb;--muted:#9b9ba3;--line:#2a2b31;--accent:#c4f36b;--font-display:"Space Grotesk",sans-serif;--font-body:"DM Sans",sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}::selection{color:var(--bg);background:var(--accent)}.section-wrap{width:min(1120px,calc(100% - 64px));margin-inline:auto}.site-header{width:min(1120px,calc(100% - 64px));height:82px;margin:auto;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.wordmark{font:700 25px var(--font-display);letter-spacing:-2px}.wordmark span,.accent{color:var(--accent)}.site-nav{display:flex;align-items:center;gap:34px;color:#c5c4c9;font-size:13px}.site-nav a,.text-link{transition:color .2s}.site-nav a:hover,.text-link:hover{color:var(--accent)}.site-nav .nav-contact{color:var(--accent)}.menu-toggle{display:none}.hero{min-height:600px;padding-top:115px;position:relative}.eyebrow{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:1.7px;margin:0 0 22px}.status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin:0 9px 1px 0;box-shadow:0 0 12px #c4f36b88}.hero h1{font:600 clamp(54px,8.5vw,100px)/.98 var(--font-display);letter-spacing:-6px;margin:0}.hero-copy{max-width:530px;margin:27px 0 28px;color:var(--muted);font-size:15px;line-height:1.8}.hero-actions{display:flex;align-items:center;gap:26px}.button{min-height:48px;display:inline-flex;gap:20px;align-items:center;padding:0 19px;font-size:12px;font-weight:700;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-primary{color:#13150e;background:var(--accent)}.button-primary:hover{background:#d3ff82}.text-link{font-size:12px;font-weight:600}.text-link span{margin-left:5px}.hero-index{position:absolute;right:0;bottom:30px;left:0;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:15px;color:#707078;font-size:9px;letter-spacing:1.5px}.section-block{border-top:1px solid var(--line);padding-top:85px;padding-bottom:95px}.about{display:grid;grid-template-columns:1fr 1fr;gap:70px}.section-heading h2,.section-title-row h2,.contact h2{font:500 clamp(38px,5vw,55px)/1.08 var(--font-display);letter-spacing:-2.7px;margin:0}.about-copy{padding-top:37px;max-width:480px}.about-copy p,.contact>p:not(.eyebrow){color:var(--muted);font-size:14px;line-height:1.9;margin-bottom:18px}.about-copy .text-link{display:inline-block;margin-top:8px}.section-title-row{display:flex;align-items:end;justify-content:space-between;margin-bottom:36px}.section-title-row .eyebrow{margin-bottom:16px}.track-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.track-card{position:relative;min-height:112px;padding:20px 50px 18px 20px;border:1px solid var(--line);background:var(--surface);transition:border-color .2s,transform .2s}.track-card:hover{border-color:var(--accent);transform:translateY(-2px)}.track-card>span{color:var(--muted);font-size:9px;letter-spacing:1px}.track-card h3{font:500 19px var(--font-display);margin:9px 0 4px}.track-card p{color:var(--muted);font-size:11px;margin:0}.track-card b{position:absolute;right:20px;top:23px;color:var(--accent);font-weight:400}.projects{border-top:1px solid var(--line)}.project-card{max-width:720px}.project-art{height:250px;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at center,#353c28,var(--surface) 67%)}.project-art:before,.project-art:after{content:"";position:absolute;width:205px;height:205px;border:1px solid #ffffff24;border-radius:50%}.project-art:after{width:140px;height:140px}.art-label{position:absolute;z-index:1;left:20px;top:20px;color:#ffffff9b;font-size:9px;letter-spacing:1.3px}.art-symbol{position:relative;z-index:1;color:var(--accent);font:100px var(--font-display)}.project-info{display:flex;align-items:center;justify-content:space-between;margin-top:20px}.project-type{color:var(--muted);font-size:9px;letter-spacing:1px;margin-bottom:7px}.project-info h3{font:500 20px var(--font-display);margin:0}.round-link{width:35px;height:35px;display:grid;place-items:center;border:1px solid #45464d;border-radius:50%;font-size:16px;transition:all .2s}.round-link:hover{color:var(--bg);background:var(--accent);border-color:var(--accent)}.project-description,.project-note{color:var(--muted);font-size:12px;line-height:1.7;margin:11px 0 0}.project-note{margin-top:24px}.contact{border-top:1px solid var(--line);padding-top:85px;padding-bottom:85px}.contact h2{margin-bottom:20px}.contact>p:not(.eyebrow){max-width:420px;margin-bottom:25px}.site-footer{min-height:80px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line)}.site-footer p{color:var(--muted);font-size:10px;margin:0}@media(max-width:700px){.section-wrap,.site-header{width:calc(100% - 40px)}.site-header{height:70px}.menu-toggle{width:40px;height:40px;display:flex;flex-direction:column;justify-content:center;gap:6px;align-items:center;border:1px solid var(--line);background:transparent;color:var(--text);cursor:pointer}.menu-toggle span{display:block;width:16px;height:1px;background:currentColor}.site-nav{position:absolute;z-index:5;top:69px;right:0;left:0;display:none;padding:18px 20px 22px;flex-direction:column;align-items:flex-start;gap:20px;background:var(--surface);border-bottom:1px solid var(--line)}.site-nav.is-open{display:flex}.hero{min-height:560px;padding-top:105px}.hero h1{letter-spacing:-3px}.hero-copy{font-size:14px}.hero-actions{align-items:flex-start;flex-direction:column;gap:19px}.section-block{padding-top:62px;padding-bottom:68px}.about{grid-template-columns:1fr;gap:24px}.about-copy{padding-top:0}.section-heading h2,.section-title-row h2,.contact h2{letter-spacing:-1.8px}.track-grid{grid-template-columns:1fr}.project-art{height:220px}.contact{padding-top:62px;padding-bottom:62px}.site-footer{min-height:100px;flex-wrap:wrap;gap:10px;padding-block:20px}.site-footer p:nth-of-type(1){order:1;width:100%}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="Portfólio de JMFV26: jornada de aprendizado, estudos e projetos em tecnologia.">
+  <title>JMFV26 | Portfólio De Tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="JMFV26, início">JF<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir Menu"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#trilhas">Trilhas</a><a href="#projetos">Projetos</a><a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <p class="eyebrow"><span class="status-dot"></span> Em Constante Aprendizado</p>
+      <h1>Construindo<br>Conhecimento<span class="accent">.</span></h1>
+      <p class="hero-copy">Sou JMFV26. Este portfólio acompanha minha jornada de aprendizado em tecnologia — dos estudos e laboratórios aos projetos práticos.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projetos">Ver Projetos <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="ROADMAP.md">Acompanhar Meu Roadmap <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>Jornada De Aprendizado</span><span>Estudar · Praticar · Compartilhar</span></div>
+    </section>
+
+    <section class="section-wrap about section-block" id="sobre">
+      <div class="section-heading"><p class="eyebrow">01 / Sobre</p><h2>Aprender Fazendo.<br><span class="accent">Evoluir Sempre.</span></h2></div>
+      <div class="about-copy">
+        <p>Este espaço reúne minhas anotações, experiências de laboratório e projetos de estudo. Quero construir uma base sólida, aprender de forma prática e documentar cada etapa da evolução.</p>
+        <p>As áreas abaixo representam temas que estou explorando. O conteúdo será atualizado conforme avanço nos estudos.</p>
+        <a class="text-link" href="https://github.com/JMFV26/Jornada-De-Aprendizado" target="_blank" rel="noreferrer">Ver Repositório No GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section-wrap skills section-block" id="habilidades">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow">02 / Habilidades</p>
+          <h2>Áreas Em <span class="accent">Evolução.</span></h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-panel">
+          <h3>Infraestrutura</h3>
+          <ul>
+            <li>Red Hat</li>
+            <li>VMware</li>
+            <li>TrueNAS</li>
+            <li>Veeam Backup</li>
+            <li>3CX</li>
+          </ul>
+        </div>
+
+        <div class="skill-panel">
+          <h3>Cloud E Segurança</h3>
+          <ul>
+            <li>Cloud</li>
+            <li>Fortinet</li>
+            <li>Zabbix</li>
+            <li>Grafana</li>
+            <li>Prometheus</li>
+          </ul>
+        </div>
+
+        <div class="skill-panel">
+          <h3>Dados</h3>
+          <ul>
+            <li>Análise De Dados</li>
+            <li>Ciência De Dados</li>
+            <li>Engenharia De Dados</li>
+            <li>Power BI</li>
+            <li>Data Bricks</li>
+          </ul>
+        </div>
+
+        <div class="skill-panel">
+          <h3>Desenvolvimento</h3>
+          <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git e GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap tracks section-block" id="trilhas">
+      <div class="section-title-row"><div><p class="eyebrow">03 / Áreas De Estudo</p><h2>Trilhas Em <span class="accent">Andamento.</span></h2></div></div>
+      <div class="track-grid">
+        <a class="track-card" href="Red%20Hat/"><span>01</span><h3>Red Hat</h3><p>Linux e administração</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Fortinet/"><span>02</span><h3>Fortinet</h3><p>Redes e segurança</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="power%20bi/"><span>03</span><h3>Power BI</h3><p>Dados e relatórios</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="python/"><span>04</span><h3>Python</h3><p>Lógica e programação</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Veeam%20backup/"><span>05</span><h3>Veeam Backup</h3><p>Proteção e recuperação</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Truenas/"><span>06</span><h3>TrueNAS</h3><p>Armazenamento</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="3cx/"><span>07</span><h3>3CX</h3><p>Telefonia IP</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="VMware/"><span>08</span><h3>VMware</h3><p>Virtualização</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Cloud/"><span>09</span><h3>Cloud</h3><p>Serviços e arquitetura</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Banco%20de%20dados/"><span>10</span><h3>Banco De Dados</h3><p>SQL e modelagem</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="An%C3%A1lise%20De%20Dados/"><span>11</span><h3>Análise De Dados</h3><p>Exploração e visualização</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Ci%C3%AAncia%20De%20Dados/"><span>12</span><h3>Ciência De Dados</h3><p>Estatística e aprendizado de máquina</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Engenharia%20De%20Dados/"><span>13</span><h3>Engenharia De Dados</h3><p>Pipelines e processamento</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Zabbix/"><span>14</span><h3>Zabbix</h3><p>Monitoramento e alertas</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Grafana/"><span>15</span><h3>Grafana</h3><p>Dashboards e observabilidade</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Prometheus/"><span>16</span><h3>Prometheus</h3><p>Métricas e monitoramento</p><b aria-hidden="true">↗</b></a>
+        <a class="track-card" href="Data%20Bricks/"><span>17</span><h3>Data Bricks</h3><p>Plataforma e engenharia de dados</p><b aria-hidden="true">↗</b></a>
+      </div>
+    </section>
+
+    <section class="section-wrap projects section-block" id="projetos">
+      <div class="section-title-row"><div><p class="eyebrow">04 / Prática</p><h2>Projetos E <span class="accent">Experimentos.</span></h2></div></div>
+      <article class="project-card">
+        <div class="project-art"><span class="art-label">JORNADA DE APRENDIZADO</span><span class="art-symbol" aria-hidden="true">✳</span></div>
+        <div class="project-info">
+          <div>
+            <p class="project-type">Documentação · Estudos · Laboratórios</p>
+            <h3>Meu Repositório De Aprendizado</h3>
+          </div>
+          <a class="round-link" href="https://github.com/JMFV26/Jornada-De-Aprendizado" target="_blank" rel="noreferrer" aria-label="Abrir repositório no GitHub">↗</a>
+        </div>
+        <p class="project-description">Um lugar para organizar trilhas, registrar aprendizados e compartilhar projetos práticos. Em evolução contínua.</p>
+      </article>
+      <p class="project-note">Novos projetos serão adicionados aqui conforme forem concluídos.</p>
+    </section>
+
+    <section class="contact section-wrap" id="contato">
+      <p class="eyebrow">05 / Contato</p>
+      <h2>Vamos Trocar<br><span class="accent">Conhecimento.</span></h2>
+      <p>Confira meus estudos e acompanhe os próximos passos no GitHub.</p>
+      <a class="button button-primary" href="https://github.com/JMFV26" target="_blank" rel="noreferrer">Visitar Meu GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark" href="#inicio">JF<span>.</span></a>
+    <p>Feito como parte da jornada de aprendizado.</p>
+    <p>© <span id="current-year">2026</span> JMFV26</p>
+  </footer>
+</body>
+</html>
