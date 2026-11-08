@@ -18,6 +18,13 @@ Meu espaço para registrar a evolução em infraestrutura, segurança, dados, cl
 | [VMware](VMware/) | Virtualização e laboratórios |
 | [Cloud](Cloud/) | Serviços, arquitetura e operações em nuvem |
 | [Banco De Dados](Banco%20de%20dados/) | SQL, modelagem e exercícios |
+| [Análise De Dados](An%C3%A1lise%20De%20Dados/) | Exploração, preparação e comunicação de dados |
+| [Ciência De Dados](Ci%C3%AAncia%20De%20Dados/) | Estatística, experimentos e aprendizado de máquina |
+| [Engenharia De Dados](Engenharia%20De%20Dados/) | Pipelines, integração e processamento de dados |
+| [Zabbix](Zabbix/) | Monitoramento, métricas e alertas |
+| [Grafana](Grafana/) | Dashboards e observabilidade |
+| [Prometheus](Prometheus/) | Coleta e consulta de métricas |
+| [Data Bricks](Data%20Bricks/) | Plataforma de dados e processamento analítico |
 | [Projetos](projetos/) | Aplicações práticas e integração dos conhecimentos |
 
 Cada trilha possui um README para orientar os estudos e uma pasta `Evidências` para registros seguros de práticas. Use `modelo-anotacoes.md` como base para documentar novos assuntos.
